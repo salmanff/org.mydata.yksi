@@ -1,6 +1,6 @@
 {
 	"meta": {
-		"app_name":"org.mydata.org.yksi",
+		"app_name":"org.mydata.yksi",
 		"app_display_name":"Yksi Note"
 	},
 	"permissions": {
