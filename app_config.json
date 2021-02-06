@@ -1,14 +1,13 @@
 {
 	"meta": {
-		"app_name":"org.mydata.org.yksi",
+		"app_name":"org.mydata.yksi",
 		"app_display_name":"Yksi Note"
 	},
 	"permissions": {
 		"publish_note" : {
-			"type":"object_delegate",
-			"collections": ["main"],
+			"type":"share_records",
 			"description": "Publish note",
-			"sharable_groups":["public"]
+      "allow_public": true
 		}
 	}
 }
