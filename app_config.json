@@ -5,10 +5,9 @@
 	},
 	"permissions": {
 		"publish_note" : {
-			"type":"object_delegate",
-			"collections": ["main"],
+			"type":"share_records",
 			"description": "Publish note",
-			"sharable_groups":["public"]
+      "allow_public": true
 		}
 	}
 }
