@@ -1,0 +1,17 @@
+{
+  "identifier": "org.mydata.yksi",
+  "display_name":"Yksi Note",
+  "version": "0.0.501",
+  "description": "An app for one note only",
+  "app_url": "https://github.com/salmanff/org.mydata.yksi",
+  "manifest_url": "https://github.com/salmanff/org.mydata.yksi/blob/main/manifest.json",
+
+	"permissions": [
+		{ "name": "publish_note",
+			"type": "share_records",
+      "table_id": "org.mydata.yksi",
+			"description": "Publish note",
+      "allow_public": true
+		}
+	]
+}
